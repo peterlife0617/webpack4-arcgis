@@ -1,0 +1,37 @@
+{
+    "name": "arcgis",
+    "version": "1.0.0",
+    "description": "Webpack4+ArcGis",
+    "author": "",
+    "license": "MIT",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development webpack --progress --colors --watch --mode=development",
+        "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --mode=production"
+    },
+    "dependencies": {
+        "@arcgis/core": "4.24.7"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.18.9",
+        "@babel/preset-env": "^7.18.10",
+        "babel-eslint": "^10.1.0",
+        "babel-loader": "^8.2.5",
+        "clean-webpack-plugin": "^0.1.17",
+        "cross-env": "^5.1.1",
+        "mini-css-extract-plugin": "^0.8.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "path": "^0.12.7",
+        "uglifyjs-webpack-plugin": "2.2.0",
+        "webpack": "4.4.1",
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-server": "^3.8.0"
+    },
+    "browserslist": "> 0.25%, not dead",
+    "engines": {
+        "node": ">=12.0.0 < 15.0.0"
+    },
+    "volta": {
+        "node": "12.22.7"
+    }
+}
+
